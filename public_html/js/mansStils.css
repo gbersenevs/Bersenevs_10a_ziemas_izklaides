@@ -1,0 +1,30 @@
+body {
+  background-color: whitesmoke;
+}
+h1 {
+  color: cornflowerblue;
+  background-color: slategrey;
+  font-size: 55px;
+}
+p {
+  color: brown;
+  font-size: 30px;
+}
+li {
+    color: mediumspringgreen;
+    font-size: 17px;
+}
+th {
+    color: black;
+     font: cursive;
+    font-size: 36px;
+}
+td {
+    color: rosybrown;
+    font: caption;
+    font-size: 28px;
+     
+}
+table{
+    border: 60px;
+}
