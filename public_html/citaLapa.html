@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formas</title>
+    <script>
+    function krasot(){
+        var kr=document.getElementById("krasa").value;
+        document.getElementById("fons").style="background-color:"+kr;
+        oncilck=document.getElementById("nomainita").innerHTML = "Krāsa nomainīta!"; 
+    }
+    </script>
+</head>
+<body>
+<form>
+  <div id="fons" style="background-color:lightgrey"><p id="nomainita">Izvēlies krāsu!</p></div>
+  <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
+  <p>Es nesapratu, ka bija prāsīts 5. uzdevumā!</p>
+  
+</form>
+</body>
+</html>
